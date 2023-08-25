@@ -58,6 +58,12 @@ findPairs(15, [0, 15, 32, 2000, 15000]);  // Output: 1 (Only one pair [15, 0] su
 findPairs(42, [1, 1, 10, 32, 41]);  // Output: 2 (Pairs [1, 41] and [10, 32] sum up to 42)
 ```
 
+## Assumptions
+
+It is assumed that the arrays passed to the function are always composed of integers. That's why filters or conditions are not used, and error handling is not implemented for cases where decimal numbers or strings are provided.
+
 ## Conclusion
 
 The `findPairs` function allows you to find and count pairs of unique elements in an array that sum up to a given target value `x`. You can use this code as a starting point for solving similar problems involving arrays and pair sums in JavaScript.
+
+P.S.: Additionally, a function has been created to generate random numbers and arrays with random numbers to continue testing the application.
